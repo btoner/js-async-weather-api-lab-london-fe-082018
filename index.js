@@ -32,7 +32,7 @@ function displayCurrentWeather(json) {
   let humidity = 	json['main']['humidity']
   
   console.log(currentTemp, low, high, humidity)
-  // let cloudCover = json['weather']['']
+  // let cloudCover = json['weather'][0][]
   
   
   
