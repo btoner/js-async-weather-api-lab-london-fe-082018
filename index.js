@@ -3,15 +3,15 @@ const API_KEY = "fea3ae9cd39e9e9a15170ade49a4c4ab"
 function handleFormSubmit(event) {
   event.preventDefault();
   //handle submit event
-  let city = event['target'][0]['value']
+  let userCity = event['target'][0]['value']
+  fetchCurrentWeather(userCity)
   console.log(city)
-  
-  
-  
 }
 
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
+  console.log("I'm in fetchCurrentWeather")
+  console.log(city)
   
   fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
 }
