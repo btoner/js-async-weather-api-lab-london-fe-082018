@@ -4,7 +4,7 @@ function handleFormSubmit(event) {
   //handle submit event
   const.cityForm = document.getElementById('cityForm')
   cityForm.addEventListener('click', )
-  fetch('https://api.openweathermap.org/data/2.5/weather?')
+  fetch('https://api.openweathermap.org/data/2.5/weather?').then
 }
 
 function fetchCurrentWeather(city) {
