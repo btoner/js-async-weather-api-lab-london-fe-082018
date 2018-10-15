@@ -26,7 +26,7 @@ function displayCurrentWeather(json) {
   console.log(json)
   //render current weather data to the DOM using provided IDs and json from API
   
-  // let currentTemp =	json['main'][]
+  // let currentTemp =	json['main']['temp']
   // let low	= 
   // let high = 	
   // let humidity = 	
