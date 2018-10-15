@@ -16,7 +16,7 @@ function fetchCurrentWeather(city) {
   console.log("I'm in fetchCurrentWeather")
   console.log(city)
   
-  // fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
+  fetch('https://api.openweathermap.org/data/2.5/weather?APPIDq={city name}').then
 }
 
 function displayCurrentWeather(json) {
