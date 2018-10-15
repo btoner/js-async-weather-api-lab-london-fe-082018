@@ -3,7 +3,8 @@ const API_KEY = "fea3ae9cd39e9e9a15170ade49a4c4ab"
 function handleFormSubmit(event) {
   event.preventDefault();
   //handle submit event
-  console.log(event['target'][0]['value'])
+  let city = event['target'][0]['value']
+  console.log(city)
   
   
   
