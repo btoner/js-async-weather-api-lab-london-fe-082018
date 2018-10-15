@@ -34,7 +34,7 @@ function displayCurrentWeather(json) {
   
   console.log(currentTemp, low, high, humidity,cloudCover)
 
-  
+  .innerHTML = htmlString;
   
   
   // .innerHTML
