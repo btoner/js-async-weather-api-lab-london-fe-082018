@@ -35,5 +35,5 @@ function createChart(json) {
 document.addEventListener('DOMContentLoaded', function() {
   //add event listener here for form submission
   const cityForm = document.getElementById('cityForm')
-  cityForm.addEventListener('click', (e) => handleFormSubmit(e))
+  cityForm.addEventListener('submit', (e) => handleFormSubmit(e))
 })
