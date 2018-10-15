@@ -4,11 +4,13 @@ function handleFormSubmit(event) {
   //handle submit event
   console.log(event)
   
-  // fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
+  
 }
 
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
+  
+  fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
 }
 
 function displayCurrentWeather(json) {
