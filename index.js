@@ -37,13 +37,13 @@ function displayCurrentWeather(json) {
   const todayTemp = document.getElementById("temp")
   todayTemp.innerHTML = currentTemp
   
-  const todayLow = document.getElementById("temp")
+  const todayLow = document.getElementById("low")
   todayTemp.innerHTML = currentTemp
   
-  const todayHigh = document.getElementById("temp")
+  const todayHigh = document.getElementById("high")
   todayTemp.innerHTML = currentTemp
   
-  const todayHumidity = document.getElementById("temp")
+  const todayHumidity = document.getElementById("humidity")
   todayTemp.innerHTML = currentTemp
   
   const todayCloud = document.getElementById("temp")
