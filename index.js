@@ -14,7 +14,7 @@ function handleFormSubmit(event) {
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
   console.log("I'm in fetchCurrentWeather")
-  console.log(City)
+  console.log(city)
   
   // fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
 }
