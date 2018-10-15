@@ -5,7 +5,7 @@ function handleFormSubmit(event) {
   //handle submit event
   let userCity = event['target'][0]['value']
   fetchCurrentWeather(userCity)
-  console.log(city)
+  console.log(userCity)
 }
 
 function fetchCurrentWeather(city) {
