@@ -34,7 +34,7 @@ function displayCurrentWeather(json) {
   
   console.log(currentTemp, low, high, humidity,cloudCover)
 
-  const todayWeather = document.getElementById("today")
+  const todayTemp = document.getElementById("today")
   todayWeather.innerHTML = currentTemp
   todayWeather.inner
   
