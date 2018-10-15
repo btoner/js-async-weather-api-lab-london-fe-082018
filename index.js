@@ -2,7 +2,7 @@ const API_KEY = "fea3ae9cd39e9e9a15170ade49a4c4ab"
 
 function handleFormSubmit(event) {
   //handle submit event
-  event.addEventListener(event, function, useCapture)
+  event.addEventListener(submit, function, useCapture)
   fetch('https://api.openweathermap.org/data/2.5/weather?')
 }
 
