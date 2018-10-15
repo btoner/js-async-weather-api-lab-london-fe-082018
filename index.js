@@ -4,16 +4,19 @@ function handleFormSubmit(event) {
   event.preventDefault();
   //handle submit event
   let userCity = event['target'][0]['value']
-  fetchCurrentWeather(userCity)
+  
   console.log(userCity)
+  
+  fetchCurrentWeather(userCity)
+  
 }
 
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
   console.log("I'm in fetchCurrentWeather")
-  console.log(city)
+  console.log(userCity)
   
-  fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
+  // fetch('api.openweathermap.org/data/2.5/weather?q={city name}').then
 }
 
 function displayCurrentWeather(json) {
